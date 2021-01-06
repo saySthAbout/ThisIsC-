@@ -30,6 +30,13 @@ namespace ShiftOperator
             Console.WriteLine("c >> 2 : {0:D5} (0x{0:X8})", c >> 2);
             Console.WriteLine("c >> 5 : {0:D5} (0x{0:X8})", c >> 5);
 
+            Console.WriteLine("\ntesting >> 3...");
+
+            Console.WriteLine("c      : {0:D5} (0x{0:X8})", c);
+            Console.WriteLine("c << 1 : {0:D5} (0x{0:X8})", c << 1);
+            Console.WriteLine("c << 2 : {0:D5} (0x{0:X8})", c << 2);
+            Console.WriteLine("c << 5 : {0:D5} (0x{0:X8})", c << 5);
+
             Console.WriteLine("\ntesting >> myself for Hex");
 
             int d = -127;
