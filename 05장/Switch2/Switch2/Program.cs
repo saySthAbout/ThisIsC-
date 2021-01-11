@@ -21,8 +21,11 @@ namespace Switch2
                 case int i:
                     Console.WriteLine($"{i}는 int 형식입니다.");
                     break;
+                case float f when f >= 0:
+                    Console.WriteLine($"{f}는 양의 float 형식입니다.");
+                    break;
                 case float f:
-                    Console.WriteLine($"{f}는 float 형식입니다.");
+                    Console.WriteLine($"{f}는 음의 float 형식입니다.");
                     break;
                 default:
                     Console.WriteLine($"{obj}는 모르는 형식입니다.");
